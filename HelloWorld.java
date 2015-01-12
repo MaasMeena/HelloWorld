@@ -1,5 +1,7 @@
 class HelloWorld{
 	public void main(String ar[]){
-		System.out.println("Hello World");
+		if(ar[0] != null){
+			System.out.println("Hello World:"+ar[0]);
+		}
 	}
 }
